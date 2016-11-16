@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>toRegist</title>
+	<meta name="viewport" content="width=device-width,maximum-scale=1.0,minimum-scale=1.0,user-scale=0">
+	<link rel="stylesheet" href="//cdn.bootcss.com/weui/1.0.2/style/weui.min.css">
+	<link rel="stylesheet" href="../../static/css/regist.css">
+</head>
+<body>
+	<!--注册盒子-->
+	<div class="regist_box">
+		<!--每一个小盒子-->
+		<div class="regist_per_box">
+			<i class="regist_per_icon regist_acount_icon"></i><span class="regist_per_box_title">账号:</span>
+			<div class="regist_per_input_div">
+				<input class="regist_per_input" type="tel" placeholder="请输入您的手机号">
+			</div>
+		</div>
+		<div class="regist_per_box_bottom_line"></div>
+		<div class="regist_per_box">
+			<i class="regist_per_icon regist_identify_code_icon"></i><span class="regist_per_box_title">验证码:</span>
+			<div class="regist_per_input_div">
+				<input class="regist_per_input" type="number" placeholder="请输入验证码">
+				<span class="get_code">获取验证码</span>
+			</div>
+		</div>
+		<div class="regist_per_box_bottom_line"></div>
+		<div class="regist_per_box">
+			<i class="regist_per_icon regist_password_icon"></i><span class="regist_per_box_title">密码:</span>
+			<div class="regist_per_input_div">
+				<input class="regist_per_input" type="password" placeholder="请输入您的登录密码">
+			</div>
+		</div>
+		<div class="regist_per_box_bottom_line"></div>
+		<div class="regist_per_box">
+			<i class="regist_per_icon regist_password_again_icon"></i><span class="regist_per_box_title">密码:</span>
+			<div class="regist_per_input_div">
+				<input class="regist_per_input" type="password" placeholder="请输入您登录密码">
+			</div>
+		</div>
+		<div class="regist_per_box_bottom_line"></div>
+		<div class="regist_per_box zidingyi_select">
+			<i class="regist_per_icon regist_identity_icon"></i><span class="regist_per_box_title">身份:</span>
+			<div class="regist_per_input_div">
+				<input class="regist_per_input" type="text" placeholder="经纪人">
+				<span class="indentity_choice_icon"></span>
+			</div>
+			<ul class="identity_options">
+				<li class="agent">经纪人</li>
+				<li class="bisiness_owner">小业主</li>
+				<li class="oprator">运营商</li>
+				<li class="daili">代理商</li>
+				<li class="developper">开发商</li>
+			</ul>
+		</div>
+	</div>
+	<!--注册按钮-->
+	<button class="regist_button">注册</button>
+	<!--下面的一行文字-->
+	<p class="regist_statement">
+		注册即代表同意<a class="statement_file" href="#">《活力矩阵用户协议》</a>
+	</p>
+
+	<script src="//cdn.bootcss.com/jquery/3.0.0-alpha1/jquery.min.js"></script>
+	<script src="../../static/js/regist.js"></script>
+</body>
+</html>

@@ -1,0 +1,128 @@
+body{
+	background-color: #efeff4;
+}
+.login_zm{
+	width: 100%;
+	height: 97px;
+	margin-top: 75px;
+	margin-bottom:45px;
+	background-color: #ffffff;
+}
+.login_zm:after,
+.login_zm:before
+{
+	content: '';
+	display: block;
+	width: 100%;
+	height: 1px;
+	background-color: #d6d7dc;
+}
+.login_zm .acount_box{
+	width: 100%;
+	height:50%;
+	display: flex;
+}
+.login_zm .middle_line{
+	margin: 0 auto;
+	width: 85%;
+	height: 1px;
+	background-color: #e1e1e1;
+}
+/*acount盒子*/
+.login_zm .acount_box .acount_icon{
+	display: inline-block;
+	height: 100%;
+	width: 44px;
+	background: url("..//img/content_ID_icon@2x.png")no-repeat center;
+	background-size: 20px 20px;
+}
+.login_zm .acount_box .zhanghao{
+	display: inline-block;
+	width: 40px;
+	height: 100%;
+	color:#323232;
+	font-size: 15px;
+	line-height: 50px;
+}
+.login_zm .acount_box .acount{
+	flex: 1;
+}
+.login_zm .acount_box .acount .acount_input{
+	width: 100%;
+	height: 100%;
+	outline: none;
+	border: none;
+	box-sizing: border-box;
+	padding-left: 10px;
+	color:#000000;
+	font-size:12px;
+}
+/*password盒子*/
+.login_zm .password_box{
+	width: 100%;
+	height:50%;
+	display: flex;
+}
+.login_zm .password_box .password_icon{
+	display: inline-block;
+	height: 100%;
+	width: 44px;
+	background: url("..//img/content_password_icon@2x.png")no-repeat center;
+	background-size: 20px 20px;
+}
+.login_zm .password_box .mima{
+	display: inline-block;
+	width: 40px;
+	height: 100%;
+	color:#323232;
+	font-size: 15px;
+	line-height: 50px;
+}
+.login_zm .password_box .password{
+	flex: 1;
+}
+.login_zm .password_box .password .password_input{
+	width: 100%;
+	height: 100%;
+	outline: none;
+	border: none;
+	box-sizing: border-box;
+	padding-left: 10px;
+	/*color:#b4b4b4;*/
+	color:#000000;
+	font-size:12px;
+}
+/*登录按钮*/
+.login_button{
+	width:90%;
+	height: 45px;
+	color:#ffffff;
+	background-color: #c7c7c7;
+	border-radius: 8px;
+	border: none;
+	display: block;
+	margin:0 auto;
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom:22px;
+	outline:none;
+}
+.login_button_active{
+	background-color:#ea5404;
+}
+/*下面的一行*/
+.toRegist_or_hasForgotten{
+	width: 80%;
+	margin:0 auto
+}
+.toRegist_or_hasForgotten .hasForgotten{
+	display: block;
+	float: right;
+	color:#707071;
+	font-size: 12px;
+}
+.toRegist_or_hasForgotten .toRegist{
+	float: left;
+	color:#ff8a00;
+	font-size: 12px;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>zhun_zu_ren</title>
+	<meta name="viewport" content="width=device-width,maximum-scale=1.0,minimum-scale=1.0,user-scale=0">
+	<link rel="stylesheet" href="//cdn.bootcss.com/weui/1.0.2/style/weui.min.css">
+	<link rel="stylesheet" href="../../static/css/zhuan_zu_ren.css">
+</head>
+<body>
+
+	<div class="zhuan_zu_ren_container">
+		<!--必填项-->
+		<div class="required_filed">
+			<div class="title">必填项</div>
+			<div class="required_filed_container">
+				<div class="photo">
+					<div class="img">添加头像</div>
+					<input class="photo_input" type="file">
+				</div>
+				<!--转租人具体信息-->
+				<div class="zhuan_info_box">
+					<div class="zhuan_info_per_box name_box">
+						<input class="zhuan_info_per_input" type="text" placeholder="姓名">
+					</div>
+					<div class="zhuan_info_per_box contact_way">
+						<input class="zhuan_info_per_input" type="text" placeholder="联系方式">
+					</div>
+				</div>
+				<!--租赁合同上传处-->
+				<div class="contract">
+					<div class="img">房屋租赁合同</div>
+					<input class="contract_input" type="file">
+				</div>
+			</div>
+		</div>
+		<!--选填项-->
+		<div class="unrequired_filed">
+			<div class="unrequired_filed_tilte">选填项</div>
+			<!--证书上传处-->
+			<div class="card_box">
+				<div class="img">名片正面</div>
+				<input type="file" class="card_input">
+			</div>
+		</div>
+		<!--完成按钮-->
+		<div class="button_box">
+			<button class="confirm">完成</button>
+		</div>
+	</div>
+
+	<!--引入JS文件-->
+	<script src="//cdn.bootcss.com/jquery/3.0.0-alpha1/jquery.min.js"></script>
+	<script src="../../static/js/zhuan_zu_ren.js"></script>
+</body>
+</html>
