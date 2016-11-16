@@ -1,18 +1,1 @@
-/**
- * Created by lenovo on 2016/11/7.
- */
-
-//        console.log($('.container').hasClass('bolco'));
-
-$(document).ready(function(){
-	var swiper = new Swiper('.swiper-container', {
-		//            direction: 'vertical',
-		autoplay: 5000,
-		speed: 500,
-		//            autoplayStopOnLast: true,
-		//            effect: 'coverflow'
-		pagination: '.swiper-pagination'
-	});
-	var assortment_offset_top = $(".assortment" ).offset().top;
-	var scroll_top = $(window ).scrollTop;
-});
+$(document).ready(function(){new Swiper(".swiper-container",{autoplay:5e3,speed:500,pagination:".swiper-pagination"}),$(".assortment").offset().top,$(window).scrollTop});

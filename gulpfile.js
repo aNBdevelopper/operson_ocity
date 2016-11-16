@@ -10,19 +10,19 @@ gulp.task('htmlmin',function(){
 });
 //压缩js文件
 gulp.task('uglify',function(){
-	gulp.src('./src/js/**/*.js')
+	gulp.src('./static/js/**/*.js')
 		.pipe(uglify())
 		.pipe(gulp.dest('./dist/static/js'));
 })
 //压缩css
 gulp.task('minifycss',function(){
-	gulp.src('./src/css/**/*.css')
+	gulp.src('./static/css/**/*.css')
 		.pipe(minifycss())
 		.pipe(gulp.dest('./dist/static/css'));
 });
 //压缩 图片
 gulp.task('imagemin',function(){
-	gulp.src('./src/image/**/*.{png,jpg,gif,ico}')
+	gulp.src('./static/image/**/*.{png,jpg,gif,ico}')
 		.pipe(imagemin())
 		.pipe(gulp.dest('./dist/static/image'));
 });
