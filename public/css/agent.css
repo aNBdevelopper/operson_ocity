@@ -1,0 +1,152 @@
+.agent_container{
+	position: absolute;
+	top:51px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #efeff4;
+}
+.required_filed{
+	width: 100%;
+}
+.required_filed:after{
+	content: "";
+	display: block;
+	width: 100%;
+	height: 1px;
+	background-color: #d6d7dc;
+}
+.required_filed .title{
+	width: 100%;
+	height: 30px;
+	box-sizing: border-box;
+	padding-left: 10px;
+	color:#b8b8b9;
+	font-size: 12px;
+	line-height: 30px;
+}
+.unrequired_filed{
+	width: 100%;
+	background-color: #efeff4;
+}
+.required_filed .required_filed_container{
+	width: 100%;
+	background-color: #ffffff;
+}
+/*必填项样式*/
+.required_filed .required_filed_container .photo{
+	width: 120px;
+	height: 75px;
+	border-bottom: 1px solid #e1e1e1;
+	display: flex;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+.required_filed .required_filed_container .photo .img{
+	width: 65px;
+	height: 65px;
+	margin: auto auto;
+	background-color: #878787;
+	text-align: center;
+	line-height: 65px;
+	font-size: 12px;
+	color: #ffffff;
+	border-radius: 50%;
+}
+.required_filed .required_filed_container .photo .photo_input{
+	display: none;
+}
+.required_filed_container .agent_info_box{
+	width: 232px;
+	margin: 0 auto;
+}
+.required_filed_container .agent_info_box .agent_info_per_box{
+	width: 100%;
+	height: 28px;
+	margin-bottom: 6px;
+}
+.required_filed_container .agent_info_box .agent_info_per_box .agent_info_per_input{
+	outline: none;
+	width: 100%;
+	height: 100%;
+	background-color: #efeff4;
+	border: 1px solid #e1e1e1;
+	border-radius: 5px;
+	box-sizing: border-box;
+	line-height: 14px;
+	padding-left: 10px;
+}
+/*上传名片处的样式*/
+.required_filed_container .business_card{
+	width: 100%;
+	height: 85px;
+	display: flex;
+}
+.required_filed_container .business_card .img{
+	width: 100px;
+	height: 65px;
+	margin:auto auto;
+	border-radius: 5px;
+	background-color: #878787;
+	text-align: center;
+	line-height: 65px;
+	color: #ffffff;
+	font-size: 12px;
+}
+.required_filed_container .business_card .business_card_input{
+	display: none;
+}
+/*非必填项样式*/
+.unrequired_filed .unrequired_filed_tilte{
+	width: 100%;
+	height: 30px;
+	box-sizing: border-box;
+	padding-left: 10px;
+	color:#b8b8b9;
+	font-size: 12px;
+	line-height: 30px;
+}
+.unrequired_filed .certificate_box{
+	width: 100%;
+	height: 85px;
+	display: flex;
+	background-color: #ffffff;
+}
+.unrequired_filed .certificate_box .img{
+	width: 100px;
+	height: 65px;
+	border-radius: 5px;
+	background-color: #878787;
+	text-align: center;
+	line-height: 65px;
+	color: #ffffff;
+	font-size: 12px;
+	margin: auto auto;
+}
+.unrequired_filed .certificate_box .add_certificate{
+	display: none;
+}
+/*完成按钮样式*/
+.button_box{
+	background-color: #efeff4;
+	width: 100%;
+	height: 140px;
+	display: flex;
+}
+.button_box .confirm{
+	width: 90%;
+	height: 45px;
+	background-color: #ea5404;
+	display: block;
+	margin: auto auto;
+	border: none;
+	outline: none;
+	border-radius: 8px;
+	font-size: 16px;
+	color: #ffffff;
+	font-weight: bold;
+}
+/*清除浮动*/
+.clear{
+	clear: both;
+}

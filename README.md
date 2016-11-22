@@ -1,30 +1,26 @@
-#项目名称：一人一城
-* 项目描述
+﻿# 项目模板
+* 下载
+  - `git clone http://github.com/guanjp/autoproject.git`
 
-     这是一个房源发布项目。客户可以搜索自己想要的房源或者发布自己的房源。
-* 项目链接地址
+* 进入
+  - `cd autoproject`
 
-     这个怎么写不知道
-* 主要涵盖技术点
+* 安装依赖
+  - `npm install`
 
-    javascript
-    
-    jQuery
-    
-    css
-    
-    html
-* 项目使用
+* 开发环境
+  - 启动
+    - `gulp`
 
-    git clone 复制项目到本地仓库
-    
-    进入入口文件
-* 入口文件
+  - 访问
+    - `http://127.0.0.1:9800`
 
-    views/loading.html
-    
-* 项目说明
+* 部署环境
+  - 构建
+    - `gulp build`
 
-    尚未完成
-    
-    为测试方便，入口页面后面跟的是登录注册页，应该是首页，待更新。
+  - 启动
+    - `node app.js`
+
+  - 访问
+    - `http://127.0.0.1:16080`

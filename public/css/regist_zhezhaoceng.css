@@ -1,0 +1,39 @@
+.zhezhaoceng_box{
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(86, 107, 150, 0.24);
+	display: flex;
+}
+.zhezhaoceng_box .alert_box{
+	width: 60%;
+	height: 108px;
+	border-radius: 5px;
+	background-color: #ffffff;
+	margin: auto auto;
+}
+.zhezhaoceng_box .alert_box .tips{
+	width: 100%;
+	height: 67px;
+	text-align: center;
+	line-height: 67px;
+	font-size: 12px;
+	color:#323232;
+}
+.zhezhaoceng_box .alert_box .tips:after{
+	width: 100%;
+	height: 1px;
+	content: '';
+	display: block;
+	background-color: #d6d7dc;
+}
+.zhezhaoceng_box .alert_box .confirm{
+	width: 100%;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	color:#ea5404;
+	font-size: 16px;
+}
