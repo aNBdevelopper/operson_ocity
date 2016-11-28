@@ -1,0 +1,1 @@
+$(function(){var c=$(".tou_xiang");c.click(function(){$(".add_touxiang").trigger("click")});var i=$(".business_card_");i.click(function(){$(".add_business_card").trigger("click")});var n=$(".certificate");n.click(function(){$(".add_certificate").trigger("click")});var r=$(".confirm");r.click(function(){location.href="zhezhaoceng.html"})});

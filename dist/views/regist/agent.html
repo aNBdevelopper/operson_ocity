@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>agent</title>
+	<meta name="viewport" content="width=device-width,maximum-scale=1,minimum-scale=1,user-scale=0">
+	<link rel="stylesheet" href="//cdn.bootcss.com/weui/1.0.2/style/weui.min.css">
+	<link rel="stylesheet" href="../../public/css/agent.css">
+</head>
+<body>
+		<div class="agent_container">
+			<!--必填项-->
+			<div class="required_filed">
+				<div class="title">必填项</div>
+				<div class="required_filed_container">
+					<div class="photo">
+						<div class="img tou_xiang">添加头像</div>
+						<input class="photo_input add_touxiang" type="file">
+					</div>
+					<!--经纪人具体信息-->
+					<div class="agent_info_box">
+						<div class="agent_info_per_box name_box">
+							<input class="agent_info_per_input" type="text" placeholder="姓名">
+						</div>
+						<div class="agent_info_per_box company_name">
+							<input class="agent_info_per_input" type="text" placeholder="所属公司">
+						</div>
+						<div class="agent_info_per_box contact_way">
+							<input class="agent_info_per_input" type="text" placeholder="联系方式">
+						</div>
+						<div class="agent_info_per_box goodAt">
+							<input class="agent_info_per_input" type="text" placeholder="擅长商圈">
+						</div>
+					</div>
+					<!--名片上传处-->
+					<div class="business_card">
+						<div class="img business_card_">名片正面</div>
+						<input class="business_card_input add_business_card" type="file">
+					</div>
+				</div>
+			</div>
+			<!--选填项-->
+			<div class="unrequired_filed">
+				<div class="unrequired_filed_tilte">选填项</div>
+				<!--证书上传处-->
+				<div class="certificate_box">
+					<div class="img certificate">全国经纪人证书</div>
+					<input type="file" class="add_certificate">
+				</div>
+			</div>
+			<!--完成按钮-->
+			<div class="clear"></div>
+			<div class="button_box">
+			<button class="confirm">完成</button>
+			</div>
+		</div>
+
+
+	<!--引入JS文件-->
+	<script src="//cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
+	<script src="../../public/js/agent.js"></script>
+</body>
+</html>

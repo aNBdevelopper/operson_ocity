@@ -1,0 +1,1 @@
+$(document).ready(function(){var n=(new Swiper(".swiper-container",{autoplay:5e3,speed:500,pagination:".swiper-pagination"}),$(".assortment").offset().top,$(window).scrollTop,$(".container"));n.on("scroll",function(){$("")})});

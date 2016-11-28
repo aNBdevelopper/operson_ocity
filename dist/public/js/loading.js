@@ -1,0 +1,1 @@
+$(function(){$(".start_page").click(function(){location.href="login/login.html"})});

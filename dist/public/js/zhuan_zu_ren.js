@@ -1,0 +1,1 @@
+$(function(){var c=$(".touxiang");c.click(function(){$(".photo_input").trigger("click")});var i=$(".contract_");i.click(function(){$(".contract_input").trigger("click")});var n=$(".card");n.click(function(){$(".card_input").trigger("click")});var t=$(".confirm");t.click(function(){location.href="zhezhaoceng.html"})});
