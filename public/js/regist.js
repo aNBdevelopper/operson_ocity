@@ -99,4 +99,13 @@ $(function(){
 			}
 		}
 	});
-})
+});
+//头部菜单事件
+var head_bar_left = $(".head_bar_left");
+var head_bar_middle = $(".head_bar_middle");
+var head_bar_right = $(".head_bar_right");
+head_bar_left.click(function(){
+	history.back(-1);
+});
+head_bar_middle.text("注册");
+head_bar_right.text("登录");

@@ -15,7 +15,6 @@
     width: 100%;
     height: 100%;
 }
-
 .swiper-pagination-bullet {
     background: url("../img/banner_icon_point_nor@2x.png") no-repeat;
     background-size: cover;
@@ -37,7 +36,7 @@
     padding: 0 15px;
     color: #ffffff;
     position: absolute;
-    top: 0;
+    top: 10px;
     left: 0;
 }
 .city-select span {
@@ -78,11 +77,30 @@
     background-size: 13px;
     vertical-align: bottom;
 }
+.assortment_box{
+    position: relative;
+}
 .assortment{
     display: flex;
     border-bottom: 1px solid #d6d7dc;
     margin-top:10px;
     background-color:#ffffff;
+}
+
+.price_sort_box{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    display: none;
+}
+.price_sort{
+    margin:0 auto;
+    width:100px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 15px;
+    background-color: #606062;
+    padding:3px;
 }
 .assortment li{
     flex: 1;
@@ -96,11 +114,215 @@
     background: url("../img/content_icon02_nor@2x.png") no-repeat bottom;
     background-size: 12px;
 }
-.assortment li:last-of-type{
+.assortment li.show{
+    color:#ea5404;
+    background: url("../img/content_icon02_press@2x.png") no-repeat bottom;
+}
+.assortment .price{
     border-right:none;
     background: url("../img/content_icon01_nor@2x.png") no-repeat center;
     background-size:40% 90%;
 }
+.assortment .price_sort_low{
+    border-right:none;
+    background: url("../img/content_icon01_litre@2x.png") no-repeat center;
+    background-size:40% 90%;
+}
+.assortment_container{
+    width:100%;
+    position:absolute;
+    top:55px;
+    z-index: 11;
+}
+/*区域部分样式*/
+.quyu{
+    display: none;
+}
+/*用作toggleClass的类名*/
+.assortment_container.show{
+    display: flex;
+}
+.assortment_container ul{
+    list-style: none;
+}
+.assortment_container .quyu_left{
+    flex:1;
+    font-size: 16px;
+    background-color: #f0f0f0;
+}
+.assortment_container .quyu_left li{
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-top: 8px;
+   padding-bottom: 8px;
+}
+.assortment_container .quyu_right{
+    flex:1;
+    box-sizing: border-box;
+    padding-left: 20px;
+    background-color: #ffffff;
+    font-size:16px;
+    position: relative;
+}
+.assortment_container .quyu_right ul{
+    position:absolute;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 20px;
+    top:0;
+    right: 0;
+    display: none;
+}
+.assortment_container .quyu_right li{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-bottom:1px solid #e1e1e1;
+}
+.assortment_container .quyu_right li:first-of-type{color:#ea5404;}
+/*面积部分样式*/
+.mianji{
+    background-color: #f0f0f0;
+    display: none
+}
+.assortment_container.mianji.show{
+    display:block ;
+}
+.mianji .mianji_top{
+   width: 100%;
+}
+.mianji .mianji_top ul li{
+    text-align: center;
+    box-sizing: border-box;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    font-size: 16px;
+}
+.mianji .mianji_bottom{
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    position: relative;
+}
+.mianji .mianji_bottom .input_area{
+    width:50%;
+    margin: 0 auto;
+    display: flex;
+}
+.mianji .input_box{
+    flex: 1;
+}
+.mianji .mianji_bottom .input_box input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.mianji .mianji_bottom .line{
+    width: 30px;
+    height: 1px;
+    background-color: #b4b4b4;
+    margin: 10px;
+}
+.mianji_bottom_confirm{
+    position:absolute;
+    top:10px;
+    right:40px;
+    padding:2px;
+    background-color: #ffffff;
+}
+/*单价部分样式*/
+.danjia{
+    background-color: #f0f0f0;
+    display: none;
+}
+.assortment_container.danjia.show{
+    display:block ;
+}
+.danjia .danjia_top{
+    width: 100%;
+}
+.danjia .danjia_top ul li{
+    text-align: center;
+    box-sizing: border-box;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    font-size: 16px;
+}
+.danjia .danjia_bottom{
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    position: relative;
+}
+.danjia .danjia_bottom .input_area{
+    width:50%;
+    margin: 0 auto;
+    display: flex;
+}
+.danjia .input_box{
+    flex: 1;
+}
+.danjia .danjia_bottom .input_box input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.danjia .danjia_bottom .line{
+    width: 30px;
+    height: 1px;
+    background-color: #b4b4b4;
+    margin: 10px;
+}
+.danjia_bottom_confirm{
+    position:absolute;
+    top:10px;
+    right:40px;
+    padding:2px;
+    background-color: #ffffff;
+}
+/*更多部分样式*/
+.more{
+    display: none;
+}
+.assortment_container .more_left{
+    flex:1;
+    font-size: 16px;
+    background-color: #f0f0f0;
+}
+.assortment_container .more_left li{
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.assortment_container .more_right{
+    flex:1;
+    box-sizing: border-box;
+    padding-left: 20px;
+    background-color: #ffffff;
+    font-size:16px;
+    position: relative;
+}
+.assortment_container .more_right ul{
+    position:absolute;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 20px;
+    top:0;
+    right: 0;
+    background-color: #ffffff;
+    display: none;
+}
+.assortment_container .more_right li{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-bottom:1px solid #e1e1e1;
+}
+.assortment_container .more_right li:first-of-type{color:#ea5404;}
+/*下面的具体信息样式*/
 .information_sort{
     box-sizing: border-box;
     display: flex;
@@ -153,6 +375,15 @@
     font-size: 10px;
     right: 0;
 }
+.to_top{
+    width: 60px;
+    height: 60px;
+    background: url("../../public/img/content_btn_back@2x.png")no-repeat center;
+    background-size: 60px 60px;
+    position:fixed;
+    right: 20px;
+    bottom: 60px;
+}
 /*下面是滑动上去后的样式*/
 .container.uplater .head_city{
     position: fixed;
@@ -165,6 +396,17 @@
     top:10px;
     left: 70px;
     right: 70px;
+}
+.container.uplater .assortment{
+    position:fixed;
+    top:40px;
+    width: 100%;
+    background-color: #ffffff;
+    z-index: 10;
+}
+.container.uplater .assortment_container{
+    position: fixed;
+    top:105px;
 }
 
 /*!*屏幕小于等于400px*!*/

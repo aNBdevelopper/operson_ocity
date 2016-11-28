@@ -81,19 +81,20 @@
 	position: relative;
 }
 .about_me .my_demand_house{
-	background: url("..//img/content_list_icon01@2x.png") no-repeat center;
+	background: url("../img/content_list_icon01@2x.png") no-repeat center;
 }
 .about_me .my_publish_house{
-	background: url("..//img/content_list_icon02@2x.png") no-repeat center;
+	background: url("../img/content_list_icon02@2x.png") no-repeat center;
 }
 .about_me .my_order_house{
-	background: url("..//img/content_list_icon03@2x.png") no-repeat center;
+	background: url("../img/content_list_icon05@2x.png") no-repeat center;
 }
 .about_me .my_history_house{
-	background: url("..//img/content_list_icon04@2x.png") no-repeat center;
+	background: url("../img/content_list_icon03@2x.png") no-repeat center;
 }
 .about_me .my_over_date_house{
-	background: url("..//img/content_list_icon05@2x.png") no-repeat center;
+	background: url("../img/content_list_icon04@2x.png") no-repeat center;
+
 }
 .about_me .icon{
 	display: inline-block;

@@ -1,0 +1,165 @@
+.me_registed_container{
+	position: absolute;
+	top:0;
+	left: 0;
+	right: 0;
+	bottom:0;
+	background-color: #efeff4;
+}
+/*头像所在的那一栏的信息样式*/
+.register{
+	margin-top: 75px;
+	width: 100%;
+	height: 100px;
+	background-color: #ffffff;
+	position: relative;
+}
+/*头像*/
+.photo{
+	display: inline-block;
+	height: 66px;
+	width: 66px;
+	position: absolute;
+	top:17px;
+	left:20px;
+	background: url("../img/content_img_user@2x.png") no-repeat center;
+	background-size: 100% 100%;
+}
+.photo .level{
+	display: inline-block;
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	background: url("../../public/img/log-in_member_icon@2x.png") no-repeat center;
+	background-size: 100% 100%;
+	right: -1px;
+	bottom: -1px;
+}
+.registed_message{
+	height: 100%;
+}
+/*用户名*/
+.registed_message .nike_name{
+	margin-left:106px;
+	color:#323232;
+	font-weight: bold;
+	line-height: 80px;
+	height: 50%;
+}
+/*更改用户名*/
+.registed_message .rewrite_info_box{
+	height: 50%;
+	padding-left: 106px;
+	margin-right: 40px;
+}
+.registed_message .rewrite_info_box .rewrite_info{
+	color:#646464;
+	position: relative;
+}
+.registed_message .rewrite_info_box .rewrite_info .to_rewrite{
+	display: inline-block;
+	width:14px;
+	height: 16px;
+	background: url("../../public/img/log-in_edit_icon@2x.png") no-repeat center;
+	background-size: 100% 100%;
+	position: absolute;
+	top:0;
+	right: -18px;
+}
+/*右边的标签*/
+.to_right{
+	position: absolute;
+	width: 20px;
+	height: 30px;
+	background: url("../img/log%20in_right_icon@2x.png") no-repeat center;
+	background-size: 100% 100%;
+	right: 13px;
+	top:50%;
+	transform:translateY(-15px);
+}
+.myValue{
+	width: 100%;
+	height: 40px;
+	margin-top: 1px;
+	background-color: #ffffff;
+	display: flex;
+	list-style: none;
+	border-bottom: 1px solid #efeff4;
+}
+.myValue li{
+	height: 100%;
+	line-height: 40px;
+	flex: 1;
+	display: flex;
+	position: relative;
+}
+.me_collection:after{
+	content: '';
+	width: 1px;
+	height: 30px;
+	background-color: #efeff4;
+	position: absolute;
+	right: 0;
+	top:5px;
+}
+.myValue li .number{
+	flex: 1;
+	font-size: 20px;
+	font-weight: bold;
+	color:#323232;
+	text-align: right;
+}
+.myValue li .text{
+	flex: 1;
+	font-size: 20px;
+	text-align: left;
+	color:#646464;
+}
+.about_me{
+	width: 100%;
+	height:50px;
+	background-color: #ffffff;
+	margin-top: 10px;
+	position: relative;
+}
+.about_me .my_demand_house{
+	background: url("../img/content_list_icon01@2x.png") no-repeat center;
+}
+.about_me .my_publish_house{
+	background: url("../img/content_list_icon02@2x.png") no-repeat center;
+}
+.about_me .my_order_house{
+	background: url("../img/content_list_icon05@2x.png") no-repeat center;
+}
+.about_me .my_history_house{
+	background: url("../img/content_list_icon03@2x.png") no-repeat center;
+}
+.about_me .my_over_date_house{
+	background: url("../img/content_list_icon04@2x.png") no-repeat center;
+
+}
+.about_me .icon{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	background-size: 30px 30px;
+}
+.about_me span{
+	display: inline-block;
+	height: 50px;
+	width: auto;
+	color:#323232;
+	position: absolute;
+	top:0;
+	line-height: 50px;
+}
+.me_about_toRight{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	right: 0;
+	top:0;
+	background: url("../img/content_list_right_icon@2x.png") no-repeat center;
+	background-size: 16px 22px;
+}

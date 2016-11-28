@@ -3,6 +3,6 @@
  */
 $(function(){
 	$(".start_page" ).click(function(){
-		location.href="login/login.html";
+		location.href="home_page/home.html";
 	})
 })

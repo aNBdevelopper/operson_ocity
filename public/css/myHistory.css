@@ -1,0 +1,93 @@
+.myHistory_container{
+	position: absolute;
+	overflow-x:hidden;
+	top:50px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	padding-top: 15px;
+	background-color: #efeff4;
+}
+/*我的发布的房源具体的信息框*/
+.information_sort_perbox{
+	position: relative;
+	width: 100%;
+	height: 124px;
+	/*overflow-x: auto;*/
+	/*overflow-y: hidden;*/
+}
+.information_sort{
+	position: relative;
+	box-sizing: border-box;
+	display: flex;
+	width: 100%;
+	padding:15px;
+	background-color: #ffffff;
+	margin-bottom: 5px;
+	border-bottom: 1px solid #d6d7dc;
+}
+.information_sort li{
+	flex: 1;
+	list-style: none;
+}
+.information_sort li:nth-of-type(1) img{
+	width: 100%;
+	height: 50%;
+}
+.information_sort li:nth-of-type(2) > span{
+	display:block;
+	padding-left:24px;
+	margin: 0;
+}
+.information_sort li:nth-of-type(2) span:nth-of-type(1){
+	color:#323232;
+	font-size:14px;
+	font-weight: bold;
+}
+.information_sort li:nth-of-type(2) span:nth-of-type(2){
+	color:#979797;
+	font-size:12px;
+}
+.information_sort li:nth-of-type(2) span:nth-of-type(3){
+	color:#ea5404;
+	font-size: 12px;
+}
+.information_sort li:nth-of-type(2) span:nth-of-type(4){
+	color:#727272;
+	font-size: 12px;
+}
+.information_sort li:nth-of-type(2) span:nth-of-type(4) span{
+	color:#eb642b;
+	font-size: 12px;
+	font-weight: bold;
+}
+.information_sort li:nth-of-type(3){position: relative;}
+.information_sort li:nth-of-type(3) span{
+	position: absolute;
+	bottom:10px;
+	color:#646464;
+	font-size: 12px;
+	right: 0;
+}
+.status{
+	position: absolute;
+	right: 15px;
+	top:15px;
+	font-size: 12px;
+	color:#646464;
+}
+/*删除键的样式*/
+.delete{
+	height: 100%;
+	line-height: 120px;
+	color:#ea5404;
+	font-size: 16px;
+	width: 66px;
+	background-color: #efeff4;
+	text-align: center;
+	position: absolute;
+	top:0;
+	right: -66px;
+	bottom: 0;
+	font-weight: bold;
+}

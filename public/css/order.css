@@ -13,6 +13,7 @@
 	right: 0;
 	bottom: 51px;
 	overflow-y: auto;
+	overflow-x: hidden;
 }
 .order_single_box{
 	width: 100%;
@@ -31,7 +32,7 @@
 	display:flex;
 	width:100px;
 	height: 80px;
-	background: url("..//img/content_img_list@2x.png") no-repeat center;
+	background: url("../img/content_img_list@2x.png") no-repeat center;
 	background-size: 100% 100%;
 	border-radius:8px;
 }
@@ -54,7 +55,7 @@
 	display: inline-block;
 	height: 13px;
 	width: 13px;
-	background:url("..//img/content_icon@2x.png") no-repeat center;
+	background:url("../img/content_icon@2x.png") no-repeat center;
 	background-size: 13px 13px;
 	margin-right: 10px;
 }
@@ -86,5 +87,17 @@
 	background-color: #ea5404;
 	color:#ffffff;
 	border-radius:3px;
+}
+.order_single_delete{
+	height: 100%;
+	width: 105px;
+	position: absolute;
+	right: -105px;
+	top:0;
+	text-align: center;
+	line-height:124px ;
+	color:#ffffff;
+	font-size: 16px;
+	background-color: #ff3b30;
 }
 

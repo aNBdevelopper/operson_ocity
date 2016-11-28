@@ -42,13 +42,152 @@
 			</div>
 		</div>
 		<!--分类下拉框-->
-		<ul class="assortment">
-			<li>区域</li>
-			<li>面积</li>
-			<li>单价</li>
-			<li>更多</li>
-			<li></li>
-		</ul>
+		<div class="assortment_box">
+			<ul class="assortment">
+				<li>区域</li>
+				<li>面积</li>
+				<li>单价</li>
+				<li>更多</li>
+				<li class="price"></li>
+			</ul>
+			<div>
+				<!--点击"区域"后的展开内容-->
+				<div class="assortment_container quyu">
+					<div class="quyu_left">
+						<ul>
+							<li>全部</li>
+							<li>闵行</li>
+							<li>浦东</li>
+							<li>嘉定</li>
+							<li>宝山</li>
+							<li>闸北</li>
+							<li>松江</li>
+							<li>青浦</li>
+							<li>徐汇</li>
+							<li>普陀</li>
+						</ul>
+					</div>
+					<div class="quyu_right">
+						<ul class="quyu_right_ul">
+							<li>全部</li>
+							<li>七宝</li>
+							<li>红桥</li>
+							<li>华漕</li>
+							<li>马桥</li>
+						</ul>
+						<ul class="quyu_right_ul">
+							<li>全部</li>
+							<li>嘉城</li>
+							<li>盐湖</li>
+							<li>保利</li>
+							<li>嘉宝</li>
+						</ul>
+						<ul class="quyu_right_ul">
+							<li>全部</li>
+							<li>八佰伴</li>
+							<li>川沙</li>
+							<li>花木</li>
+							<li>金桥</li>
+						</ul>
+					</div>
+				</div>
+				<!--点击"面积"后的展开内容-->
+				<div class="assortment_container mianji">
+					<div class="mianji_top">
+						<ul>
+							<li>全部</li>
+							<li>100m²以下</li>
+							<li>100-200m²</li>
+							<li>200-300m²</li>
+							<li>300-500m²</li>
+							<li>500-1000m²</li>
+							<li>1000m²以上</li>
+						</ul>
+					</div>
+					<div class="mianji_bottom">
+						<div class="input_area">
+							<div class="input_box"><input type="text"></div>
+							<div class="line"></div>
+							<div class="input_box"><input type="text"></div>
+						</div>
+						<button class="mianji_bottom_confirm">确定</button>
+					</div>
+				</div>
+				<!--点击"单价"后的展开内容-->
+				<div class="assortment_container danjia">
+					<div class="danjia_top">
+						<ul>
+							<li>全部</li>
+							<li>3元/m²/天以下</li>
+							<li>3-4元/m²/天</li>
+							<li>4-5元/m²/天</li>
+							<li>5-7元/m²/天</li>
+							<li>7-9元/m²/天</li>
+							<li>9-12元/m²/天</li>
+							<li>12元/m²/天以上</li>
+						</ul>
+					</div>
+					<div class="danjia_bottom">
+						<div class="input_area">
+							<div class="input_box"><input type="text"></div>
+							<div class="line"></div>
+							<div class="input_box"><input type="text"></div>
+						</div>
+						<button class="danjia_bottom_confirm">确定</button>
+					</div>
+				</div>
+				<!--点击"更多"后的展开内容-->
+				<div class="assortment_container more">
+					<div class="more_left">
+						<ul>
+							<li>地铁</li>
+							<li>房型</li>
+							<li>装修</li>
+						</ul>
+					</div>
+					<div class="more_right">
+						<!--第一个ul-->
+						<ul class="more_right_ul">
+							<li>全部</li>
+							<li>1号线</li>
+							<li>2号线</li>
+							<li>3号线</li>
+							<li>4号线</li>
+							<li>5号线</li>
+							<li>6号线</li>
+							<li>7号线</li>
+							<li>8号线</li>
+							<li>9号线</li>
+						</ul>
+						<!--第二个ul-->
+						<ul class="more_right_ul">
+							<li>全部</li>
+							<li>众创空间</li>
+							<li>商务中心</li>
+							<li>创意产业园</li>
+							<li>写字楼</li>
+							<li>工位</li>
+							<li>整栋</li>
+							<li>整层</li>
+						</ul>
+						<!--第三个ul-->
+						<ul class="more_right_ul">
+							<li>全部</li>
+							<li>豪装</li>
+							<li>精装</li>
+							<li>简装</li>
+							<li>标准支付</li>
+							<li>毛坯</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<!--价格由低到高-->
+			<div class="price_sort_box">
+				<p class="price_sort">价格由低到高</p>
+			</div>
+		</div>
 		<!--信息分类-->
 		<ul class="information_sort">
 			<li><img src="../../public/img/content_img_list@2x.png" alt=""></li>
@@ -90,7 +229,59 @@
 			</li>
 			<li><span>佣金：1个月</span></li>
 		</ul>
+		<ul class="information_sort">
+			<li><img src="../../public/img/content_img_list@2x.png" alt=""></li>
+			<li class="information_sort_detail">
+				<span>东方金融中心</span>
+				<span>浦东-八佰伴</span>
+				<span>商务中心</span>
+				<span><span>¥7</span>元/平米/天起</span>
+			</li>
+			<li><span>佣金：1个月</span></li>
+		</ul>
+		<ul class="information_sort">
+			<li><img src="../../public/img/content_img_list@2x.png" alt=""></li>
+			<li class="information_sort_detail">
+				<span>东方金融中心</span>
+				<span>浦东-八佰伴</span>
+				<span>商务中心</span>
+				<span><span>¥7</span>元/平米/天起</span>
+			</li>
+			<li><span>佣金：1个月</span></li>
+		</ul>
+		<ul class="information_sort">
+			<li><img src="../../public/img/content_img_list@2x.png" alt=""></li>
+			<li class="information_sort_detail">
+				<span>东方金融中心</span>
+				<span>浦东-八佰伴</span>
+				<span>商务中心</span>
+				<span><span>¥7</span>元/平米/天起</span>
+			</li>
+			<li><span>佣金：1个月</span></li>
+		</ul>
+		<ul class="information_sort">
+			<li><img src="../../public/img/content_img_list@2x.png" alt=""></li>
+			<li class="information_sort_detail">
+				<span>东方金融中心</span>
+				<span>浦东-八佰伴</span>
+				<span>商务中心</span>
+				<span><span>¥7</span>元/平米/天起</span>
+			</li>
+			<li><span>佣金：1个月</span></li>
+		</ul>
+		<ul class="information_sort">
+			<li><img src="../../public/img/content_img_list@2x.png" alt=""></li>
+			<li class="information_sort_detail">
+				<span>东方金融中心</span>
+				<span>浦东-八佰伴</span>
+				<span>商务中心</span>
+				<span><span>¥7</span>元/平米/天起</span>
+			</li>
+			<li><span>佣金：1个月</span></li>
+		</ul>
 	</div>
+	<!--回到顶部按钮-->
+	<div class="to_top"></div>
 	<div class="foot">
 		<ul class="foot_sort">
 			<li><div>首页</div></li>
@@ -106,7 +297,7 @@
 	<script src="//cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
 	<script src="//cdn.bootcss.com/Swiper/3.4.0/js/swiper.jquery.min.js"></script>
 	<script src="../../public/js/home_page_home.js"></script>
-
+	<script src="../../public/js/bottom_table.js"></script>
 </body>
 
 </html>

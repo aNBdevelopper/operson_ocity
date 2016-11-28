@@ -1,0 +1,40 @@
+/*头部导航栏样式*/
+.head_bar{
+	position: absolute;
+	top:0;
+	left: 0;
+	right: 0;
+	height:50px;
+	background-color:#ffffff;
+}
+.head_bar .head_bar_left{
+	width:14px;
+	height: 100%;
+	position: absolute;
+	left: 15px;
+	background: url("../../public/img/nav_back_icon@2x.png")no-repeat center;
+	background-size: 12px 18px;
+}
+.head_bar .head_bar_middle{
+	width: 100px;
+	height: 100%;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50px);
+	line-height: 50px;
+	text-align: center;
+	color:#ea5404;
+	font-size: 18px;
+	font-weight: bold;
+}
+.head_bar .head_bar_right{
+	width:100px;
+	height: 100%;
+	position: absolute;
+	right: 15px;
+	font-size:16px ;
+	line-height: 50px;
+	color:#323232;
+	font-weight: bold;
+	text-align: right;
+}
